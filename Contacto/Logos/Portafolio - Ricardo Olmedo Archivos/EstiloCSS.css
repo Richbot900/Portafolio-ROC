@@ -1,0 +1,207 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+body .Barramenu {
+    background-color: solid#B31C1C;
+    background: #B31C1C;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+}
+
+body .Barramenu .logo img{
+    height: 100px;
+    padding-top: 5px;
+    padding-left: 80px;
+    padding-right: 420px;
+}
+
+body .Barramenu .Items {
+    font-size: 24px;
+    color: #fefefe;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    padding-left: 540px;
+    gap: 90px;
+}
+
+body .Intro {
+    align-items: center;
+    background-color: solid#591A1A;
+    background: #591A1A;
+    display: flex;
+    flex-wrap: wrap;
+    height: 500px;
+}
+
+body .Intro .Fotoperfil {
+    padding-right: 250px;
+    padding-left: 100px;
+}
+
+body .Intro .Fotoperfil img {
+    border-radius: 45px;
+    height: 400px;
+    width: 400px;
+
+}
+
+
+body .Intro .Descrip h1 {
+    text-align: center;
+    width: 600px;
+    font-size: 70px;
+    color: #fefefe;
+    padding-bottom: 50px;
+}
+
+body .Intro .Descrip p {
+    text-align: center;
+    width: 400px;
+    font-size: 35px;
+    color: #fefefe;
+    padding-left: 100px;
+}
+
+body .Trabajos .MT {
+    color: #591A1A;
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+}
+
+body .Trabajos .Tarjetas1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard {
+    height: 400px;
+    width: 600px;
+    align-content: center;
+    text-align: center;
+    padding-left: 125px;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Imgcard {
+    flex: 80%;
+    height: 70%;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Imgcard img {
+    flex: 50%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Textcard {
+    padding-bottom: 25px;
+    background: #591A1A;
+    background-color: #591A1A;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Textcard h1 {
+    padding: 10px;
+    color: #fefefe;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Textcard .Linea {
+    padding-left: 100px;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Textcard .Linea span {
+    border: 2px solid#B31C1C;
+    display: flex;
+    width: 80%;
+}
+
+body .Trabajos .Tarjetas1 .SeccionCard .Textcard p {
+    padding: 5px;
+    color: #fefefe;
+}
+
+body .Trabajos .Tarjetas2 {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 100px;
+    padding-top: 25px;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard {
+    height: 400px;
+    width: 600px;
+    align-content: center;
+    text-align: center;
+    padding-left: 125px;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Imgcard {
+    flex: 80%;
+    height: 70%;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Imgcard img {
+    flex: 50%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Textcard {
+    padding-bottom: 25px;
+    background: #591A1A;
+    background-color: #591A1A;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Textcard h1 {
+    padding: 10px;
+    color: #fefefe;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Textcard .Linea {
+    padding-left: 100px;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Textcard .Linea span {
+    border: 2px solid#B31C1C;
+    display: flex;
+    width: 80%;
+}
+
+body .Trabajos .Tarjetas2 .SeccionCard .Textcard p {
+    padding: 5px;
+    color: #fefefe;
+}
+
+body .pie {
+    text-align: center;
+    background: #d9d9dd;
+    background-color: #d9d9d9;
+    height: 114px;
+}
+
+body .pie p {
+    font-size: 24px;
+    padding-top: 50px;
+    color: #868686;
+}
+
+/*media querie*/
+
+@media only screen and (max-width: 1361px) {
+
+    body .Barramenu .logo img{
+        padding-right: 220px;
+    }
+    
+    body .Barramenu .Items { 
+        padding-left: 540px;
+    }
+}

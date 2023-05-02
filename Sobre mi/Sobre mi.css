@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+body .Barramenu {
+    background-color: solid#B31C1C;
+    background: #B31C1C;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+}
+
+body .Barramenu .logo img{
+    height: 100px;
+    padding-top: 5px;
+    padding-left: 80px;
+    padding-right: 420px;
+}
+
+body .Barramenu .Items {
+    font-size: 24px;
+    color: #fefefe;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    padding-left: 540px;
+    gap: 90px;
+}
+
+body .Sobremi {
+    align-items: center;
+    background-color: solid#591A1A;
+    background: #591A1A;
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+}
+
+body .Sobremi .Fotoperfil {
+    padding: 0 120px;
+    height: 70%;
+    width: 400px;
+}
+
+body .Sobremi .Fotoperfil img {
+    border-radius: 45px;
+    flex: 50%;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+body .Sobremi .Descrip{
+    width: 800px;
+}
+
+body .Sobremi .Descrip h1 {
+    text-align: left;
+    width: 600px;
+    font-size: 45px;
+    color: #fefefe;
+    font-style: italic;
+}
+
+body .Sobremi .Descrip p {
+    text-align: left;
+    text-justify: auto;
+    width: 600px;
+    font-size: 30px;
+    color: #fefefe;
+    padding: 50px;
+}
+
+
+body .pie {
+    text-align: center;
+    background: #d9d9dd;
+    background-color: #d9d9d9;
+    height: 114px;
+}
+
+body .pie p {
+    font-size: 24px;
+    padding-top: 50px;
+    color: #868686;
+}
+
+/*media querie-1360*/
+
+@media only screen and (max-width: 1361px) {
+
+    body .Barramenu .Items {
+        padding-top: 25px;
+        padding-left: 400px;
+    }
+    
+    body .Sobremi {
+        align-items: center;
+        background-color: solid#591A1A;
+        background: #591A1A;
+        height: 2000px;
+    }
+
+    body .Sobremi .Fotoperfil {
+        padding: 50px 50px;
+        height: 720px;
+        width: 1300px;
+    }
+
+    body .Sobremi .Descrip {
+        padding-left: 250px;
+        width: 90%;
+    }
+
+}
+
+    /*media querie-1085*/
+
+@media only screen and (max-width: 1086px) {
+
+    body .Barramenu .Items {
+        padding-left: 200px;
+    }
+
+    body .Barramenu .logo img{
+        padding-right: 300px;
+    }
+
+}
+
+    /*media querie-850*/
+
+    @media only screen and (max-width: 851px) {
+
+        body .Barramenu .Items {
+            padding-left: 100px;
+        }
+    
+        body .Barramenu .logo img{
+            padding-right: 200px;
+        }
+    
+        body .Sobremi .Descrip {
+            padding-left: 80px;
+            width: 90%;
+        }
+    
+        body .Sobremi .Descrip h1 {
+            text-align: center;
+        }
+    
+        body .Sobremi .Descrip p {
+            text-align: center;
+        }
+    }

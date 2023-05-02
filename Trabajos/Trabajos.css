@@ -1,0 +1,568 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+  }
+
+body .Barramenu {
+    background-color: solid#B31C1C;
+    background: #B31C1C;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 80px;
+}
+
+body .Barramenu .logo img{
+    height: 100px;
+    padding-top: 5px;
+    padding-left: 80px;
+    padding-right: 420px;
+}
+
+body .Barramenu .Items {
+    font-size: 24px;
+    color: #fefefe;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 28px;
+    padding-left: 540px;
+    gap: 90px;
+}
+
+body .Galeria {
+    background-color: solid#591A1A;
+    background: #591A1A;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, auto);
+    grid-gap: 20px;
+    /* justify-content: center;
+    display: flex;
+    flex-wrap: wrap; */
+    padding: 50px 10px;
+}
+
+
+
+body .Galeria .uno {
+    grid-column: span 7;
+    height: 535px;
+}
+
+body .Galeria .uno img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+}
+
+body .Galeria .dos {
+    grid-column: span 5;
+    height: 535px;
+}
+
+body .Galeria .dos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+body .Galeria .tres {
+    grid-column: span 4;
+    height: 644px;
+}
+
+body .Galeria .tres img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body .Galeria .cuatro {
+    grid-column: span 4;
+    height: 644px;
+}
+
+body .Galeria .cuatro img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+body .Galeria .cinco {
+    grid-column: span 4;
+    height: 644px;
+}
+
+body .Galeria .cinco img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+body .Galeria .seis {
+    grid-column: span 12;
+    height: 635px;
+}
+
+body .Galeria .seis img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+body .Galeria .siete {
+    grid-column: span 7;
+    height: 600px;
+}
+
+body .Galeria .siete img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+body .Galeria .ocho {
+    grid-column: span 5;
+    height: 600px;
+}
+
+body .Galeria .ocho img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+body .Galeria .nueve {
+    grid-column: span 4;
+    height: 600px;
+}
+
+body .Galeria .nueve img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+body .Galeria .diez {
+    grid-column: span 8;
+    height: 600px;
+}
+
+body .Galeria .diez img {
+    width: 100%;
+    height: 100%;
+    object-position: top;
+    object-fit: cover;
+}
+
+/* body .Galeria .rg1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+body .Galeria .img1 img {
+    width: 910px;
+}
+body .Galeria .img2 img {
+    width: 550px;
+}
+
+body .Galeria .rg2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+body .Galeria .rg2 img {
+    width: 480px;
+}
+
+
+body .Galeria .rg2 .img4 {
+    width: 480px;
+}
+
+body .Galeria .rg2 .img4 img {
+    flex: 90%;
+    object-fit: cover;
+    width: 100%;
+    height: 742px;
+}
+
+body .Galeria .rg2 .img5 {
+    width: 480px;
+}
+
+body .Galeria .rg2 .img5 img {
+    flex: 90%;
+    object-fit: cover;
+    width: 100%;
+    height: 742px;
+}
+
+body .Galeria .img6 img {
+    width: 1470px;
+}
+
+body .Galeria .rg3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+body .Galeria .rg3 .img7 img {
+    width: 910px;
+}
+
+body .Galeria .rg3 .img8 img {
+    width: 548px;
+}
+
+body .Galeria .rg4 {
+    gap: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body .Galeria .rg4 .img9 {
+    background: #121212;
+    width: 100%;
+    height: 423px;
+}
+
+body .Galeria .rg4 .img9 img {
+    height: 100%;
+}
+
+body .Galeria .rg4 .img10 {
+    background: #121212;
+    vertical-align: top;
+    width: 100%;
+    height: 423px;
+}
+
+body .Galeria .rg4 .img10 img {
+    flex: 90%;
+    object-fit: cover;
+    vertical-align: top;
+    width: 100%;
+    height: 610px;
+} */
+
+body .pie {
+    text-align: center;
+    background: #d9d9dd;
+    background-color: #d9d9d9;
+    height: 114px;
+}
+
+body .pie p {
+    font-size: 24px;
+    padding-top: 50px;
+    color: #868686;
+}
+
+/*media querie-1360*/
+
+@media only screen and (max-width: 1361px){
+    body .Barramenu .Items {
+        padding-top: 25px;
+        padding-left: 400px;
+    }
+}
+
+/*media querie-1085*/
+
+@media only screen and (max-width: 1086px){
+
+    body .Barramenu .Items {
+        padding-left: 120px;
+
+    }
+
+    body .Galeria {
+        background-color: solid#591A1A;
+        background: #591A1A;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-gap: 20px;
+        /* justify-content: center;
+        display: flex;
+        flex-wrap: wrap; */
+        padding: 50px 10px;
+    }
+    
+    body .Galeria .uno {
+        grid-column: span 12;
+        height: 840px;
+        flex: 100%;
+    }
+    
+    body .Galeria .uno img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        vertical-align: top;
+        
+    }
+    
+    body .Galeria .dos {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .dos img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    body .Galeria .tres {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .tres img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    body .Galeria .cuatro {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .cuatro img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    body .Galeria .cinco {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .cinco img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .seis {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .seis img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .siete {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .siete img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .ocho {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .ocho img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .nueve {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .nueve img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .diez {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .diez img {
+        width: 100%;
+        height: 100%;
+        object-position: top;
+        object-fit: cover;
+    }
+}
+
+/*media querie-850*/
+
+@media only screen and (max-width: 851px) {
+
+    body .Barramenu .logo img{
+        padding-right: 150px;
+    }
+
+    body .Barramenu .Items {
+        padding-left: 150px;
+
+    }
+
+    body .Galeria {
+        background-color: solid#591A1A;
+        background: #591A1A;
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: repeat(5, auto);
+        grid-gap: 20px;
+        /* justify-content: center;
+        display: flex;
+        flex-wrap: wrap; */
+        padding: 50px 10px;
+    }
+    
+    body .Galeria .uno {
+        grid-column: span 12;
+        height: 840px;
+        flex: 100%;
+    }
+    
+    body .Galeria .uno img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        vertical-align: top;
+        
+    }
+    
+    body .Galeria .dos {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .dos img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    body .Galeria .tres {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .tres img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    body .Galeria .cuatro {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .cuatro img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    body .Galeria .cinco {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .cinco img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .seis {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .seis img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .siete {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .siete img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .ocho {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .ocho img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .nueve {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .nueve img {
+        width: 100%;
+        height: 100%;
+    
+        object-fit: cover;
+    }
+    
+    body .Galeria .diez {
+        grid-column: span 12;
+        height: 840px;
+    }
+    
+    body .Galeria .diez img {
+        width: 100%;
+        height: 100%;
+        object-position: top;
+        object-fit: cover;
+    }
+}
